@@ -25,19 +25,3 @@ The variables include:
 - Context variables (location, time of day, day of week, temperature) :contentReference[oaicite:12]{index=12}
 
 A detailed variable list + measurement scales is provided in the report. :contentReference[oaicite:13]{index=13}
-
----
-
-## Repository Structure
-
-Suggested structure (matches the modular/OOP refactor):
-
-```text
-.
-├── data_processing.py        # Data loading + cleaning pipeline (OOP)
-├── visualization.py          # All plots (kept identical logic/output)
-├── main.py                   # Runs the full pipeline and generates visuals
-├── data/
-│   └── EV_Charging_Patterns_Dirty.csv
-└── report/
-    └── final templatee 11.pdf
